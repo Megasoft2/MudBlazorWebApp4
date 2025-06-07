@@ -26,9 +26,9 @@ else
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+//app.UseHttpsRedirection();
 
-
+app.UsePathBase("/MudBlazorWebApp4");
 app.UseAntiforgery();
 
 app.MapStaticAssets();
